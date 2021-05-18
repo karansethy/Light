@@ -25,7 +25,7 @@ namespace towerlight
     DigitalOut direction1(PA_13); //set L298N direction pin
     DigitalOut direction2(PA_14); //set L298N direction pin
 
-    //READ DOCUMENTATION ON NOTION TO UNDERSTAND MATH MULTIPLIERS
+    //READ DOCUMENTATION TO UNDERSTAND MATH MULTIPLIERS
     float i=0.0; //map variable
     float g=0.0; //Sine wave modifier
     float x=1.0; //Sine wave multiplier
